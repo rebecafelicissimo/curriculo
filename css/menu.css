@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+.menu { /* header */
+    display: flex;
+    justify-content: space-between; /* vai para as extremidades */ 
+    background-color: #030AA6;
+    box-shadow: 0px 5px 5px #4951db;    
+    padding: 10px 20px;
+}
+
+.menu_Imagem { /* imagem */
+    width: 65px;
+    height: 85px;
+    border-radius: 10px;
+}
+
+.menu_Navegação {
+    text-align: right;    
+}
+
+.menu_Links {
+    display: inline-flex;
+    align-items: center;
+    color: #FFEAEC;
+    font-size: 25px;
+    font-family: 'Syne Mono', monospace, serif;
+    font-weight: 400; /* normal */ 
+    text-decoration: none;
+    margin-top: 18px;
+    margin-right: 30px;    
+}
+
+.menu_Links::before { /* quadrado criado somente com css, não tem nada no html, o before é um pseudo-elemento */    
+    content: ""; /* obrigatório o content */ 
+    background-color: #FF66B3;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    margin-right: 10px;   
+}
+
+#menu_botão {
+    display: inline-block;
+    background-color: #6DB1BF;
+    color: #FFEAEC;
+    height: 50px;
+    line-height: 50px; /* o line-height tem que ser do mesmo tamanho do height para que o conteúdo seja centralizado, só funciona se tiver uma linha */
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #134d58;  /* #134d58 */
+    margin-right: 0;
+}
+
+#menu_botão:hover {
+    background-color: #301A4B;
+    box-shadow: 5px 5px 5px #522e80;
+}
+
+#menu_botão:active {
+    background-color: #FF66B3;
+    box-shadow: 5px 5px 5px #fa3296;
+}
