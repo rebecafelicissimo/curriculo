@@ -2,7 +2,8 @@
 
 .menu { /* header */
     display: flex;
-    justify-content: space-between; /* vai para as extremidades */ 
+    justify-content: /* vai para as extremidades */ space-between;
+    align-items: center; /* alinha os itens no centro */ 
     background-color: #030AA6;
     box-shadow: 0px 5px 5px #4951db;    
     padding: 10px 20px;
@@ -26,7 +27,6 @@
     font-family: 'Syne Mono', monospace, serif;
     font-weight: 400; /* normal */ 
     text-decoration: none;
-    margin-top: 18px;
     margin-right: 30px;    
 }
 
@@ -53,11 +53,15 @@
 }
 
 #menu_botão:hover {
-    background-color: #301A4B;
-    box-shadow: 5px 5px 5px #522e80;
+    background-color: #FFEAEC;
+    color: black;
+    box-shadow: none;    
+    /*background-color: #301A4B;
+    box-shadow: 5px 5px 5px #522e80;*/
 }
 
 #menu_botão:active {
     background-color: #FF66B3;
     box-shadow: 5px 5px 5px #fa3296;
+    color: #FFEAEC;
 }
