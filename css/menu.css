@@ -52,16 +52,8 @@
     margin-right: 0;
 }
 
-#menu_botão:hover {
-    background-color: #FFEAEC;
-    color: black;
-    box-shadow: none;    
-    /*background-color: #301A4B;
-    box-shadow: 5px 5px 5px #522e80;*/
-}
-
 #menu_botão:active {
     background-color: #FF66B3;
-    box-shadow: 5px 5px 5px #fa3296;
+    box-shadow: none;
     color: #FFEAEC;
 }
