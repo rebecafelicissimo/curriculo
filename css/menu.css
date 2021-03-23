@@ -2,11 +2,11 @@
 
 .menu { /* header */
     display: flex;
-    justify-content: /* vai para as extremidades */ space-between;
+    justify-content: space-between;/* vai para as extremidades */
     align-items: center; /* alinha os itens no centro */ 
     background-color: #030AA6;
     box-shadow: 0px 5px 5px #4951db;    
-    padding: 10px 20px;
+    padding: 10px 20px;    
 }
 
 .menu_Imagem { /* imagem */
