@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-h1 {
+.title {
     font-family: Helvetica, sans-serif;
     font-size: 40px;
     color: #301A4B;
-    text-shadow: 3px 1px 0 #57476b;        
+    text-shadow: 2px 1px 0 black;  /* 57476b */       
 }

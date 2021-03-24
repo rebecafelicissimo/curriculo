@@ -6,34 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rebeca Felicissimo</title>
     <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
-
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
-
     <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/components/header.css">
+    <link rel="stylesheet" href="./css/components/logo.css">    
     <link rel="stylesheet" href="./css/components/title.css">
     <link rel="stylesheet" href="./css/components/subtitle.css">
     <link rel="stylesheet" href="./css/components/box.css">
-    <link rel="stylesheet" href="./css/section_01.css">
+    <link rel="stylesheet" href="./css/components/action.css">
+    <link rel="stylesheet" href="./css/components/button.css">
     
 </head>
+
 <body>
 
-    <header class="menu">
-        <img class="menu_Imagem" src="./assets/images/rebeca-menu.png" alt="imagem Rebeca">
-        <nav class="menu_Navegação"> <!-- navigation (navegação) filho do header -->
-            <a class="menu_Links" href="#">Sobre</a>
-            <a class="menu_Links" href="#">Projetos</a>
-            <a class="menu_Links" href="#">Habilidades</a>
-            <a class="menu_Links" href="#">Contato</a>
-            <a class="menu_Links" id="menu_botão" href="#" lang="en">Download CV</a> <!-- usar oa tag lang quando tiver palabras em inglês, se for em um parágrafo usar a tag em e colocar o lang-->
+    <header class="header">
+        <img class="logo" src="./assets/images/rebeca-menu.png" alt="imagem Rebeca">
+        <nav> <!-- navigation (navegação) filho do header -->
+            <a class="action" href="#">Sobre</a>
+            <a class="action" href="#">Projetos</a>
+            <a class="action" href="#">Habilidades</a>
+            <a class="action" href="#">Contato</a>
+            <a class="button"  href="#" lang="en">Download CV</a> <!-- usar oa tag lang quando tiver palabras em inglês, se for em um parágrafo usar a tag em e colocar o lang-->
         </nav>
     </header>
     
-    <div id="box"> 
-        <h1>Rebeca G. Felicissimo</h1>
-        <h2>Arqueóloga</h2>
+    <div class="box">  
+        <h1 class="title">Rebeca G. Felicissimo</h1>
+        <h2 class="subtitle">Arqueóloga</h2>
+    </div>
+
+    <div>
+        <a class="button" href="#" lang="en">Download CV</a>
+        <a class="button" href="#">Contato</a>
     </div>
 
 
@@ -41,11 +47,7 @@
     <div class="seção_01">
         <img class="seção_01_imagem" src="./assets/images/rebeca-menu.png" alt="Rebeca Felicissimo">
 
-        <div class="seção_01_títulos">
-            <h1 class="seção_01_título">Rebeca G. Felicissimo</h1>
-            <h2 class="seção_01_subtítulo">Arqueóloga</h2>
-        </div> 
-        
+               
         <div class="seção_01_botões">
             <a class="seção_01_botão"  href="#" lang="en">Download CV</a>
             <a class="seção_01_botão"  href="#">Contatos</a>
