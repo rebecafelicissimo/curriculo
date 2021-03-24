@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#box {
+    display: inline-block;
+    background-color: #FF66B3;    
+    box-shadow: 5px 5px 0 #fa91c6;
+    text-align: center;
+    padding: 42px 45px;
+} 
+
+#box h1 { /* estou falando que o pai está pegando o filho e aplicando uma propriedade somente nele. */ 
+    margin-bottom: 20px;
+}
