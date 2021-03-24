@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.action { /* a */
+    display: inline-flex;
+    align-items: center;
+    color: #FFEAEC;
+    font-size: 25px;    
+    font-weight: 400; /* normal */ 
+    text-decoration: none;
+    margin-right: 30px;    
+}
+
+.action::before { /* quadrado criado somente com css, não tem nada no html, o before é um pseudo-elemento */    
+    content: ""; /* obrigatório o content */ 
+    background-color: #FF66B3;
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    margin-right: 10px;   
+}

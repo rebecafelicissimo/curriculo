@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.header { /* header */
+    display: flex;
+    justify-content: space-between;/* vai para as extremidades */
+    align-items: center; /* alinha os itens no centro */ 
+    background-color: #030AA6;
+    border-bottom: 5px solid black;    
+    padding: 10px 20px;    
+}
