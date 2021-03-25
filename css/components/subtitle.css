@@ -3,6 +3,5 @@
 .subtitle {
     font-family: Helvetica, sans-serif;
     font-size: 30px;
-    color: #030AA6;
-    text-shadow: 2px 1px 0 black; /* eixo x eixo y blur (esfumaçado) e cor 030ff5*/
+    color: #030AA6;   
 }
