@@ -5,3 +5,7 @@
     font-size: 40px;
     color: black;             
 }
+
+.title.-second { /* vamos mudar o comportamento padrão do title fazendo uma variação do title original e colocamos assim no código para identificar, -second , são boas práticas*/
+    text-align: center;
+}
