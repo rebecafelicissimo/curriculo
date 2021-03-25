@@ -1,0 +1,17 @@
+
+.box_icon { 
+    box-sizing: border-box;     
+    display: inline-block; 
+    margin-bottom: 40px;
+    
+    
+    border: 1px solid black;
+}
+
+.box_icon .subtitle {    
+    display: inline-block;
+    position: absolute;     
+    margin-left: 20px; 
+    color: black;
+}
+

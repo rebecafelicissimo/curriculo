@@ -18,7 +18,11 @@
     <link rel="stylesheet" href="./css/components/box.css">
     <link rel="stylesheet" href="./css/components/action.css">
     <link rel="stylesheet" href="./css/components/button.css">
-
+    <link rel="stylesheet" href="./css/components/section.css">
+    <link rel="stylesheet" href="./css/components/box_icon.css">
+    <link rel="stylesheet" href="./css/components/icons.css">
+    <link rel="stylesheet" href="./css/components/bar.css">
+    <link rel="stylesheet" href="./css/components/container_icons.css">
 </head>
 
 <body>
@@ -36,9 +40,12 @@
         </nav>
     </header>
 
-    <section class="banner"> <!-- Pai - ele quem manda nos componentes dos filhos - posicionamento dos filhos -->
-        <div class="wrapper"> <!-- wrapper = envolver-->
-            <div class="box"> <!-- Filho do wrapper -->
+    <section class="banner">
+        <!-- Pai - ele quem manda nos componentes dos filhos - posicionamento dos filhos -->
+        <div class="wrapper">
+            <!-- wrapper = envolver-->
+            <div class="box">
+                <!-- Filho do wrapper -->
                 <h1 class="title">Rebeca G. Felicissimo</h1>
                 <h2 class="subtitle">Arqueóloga</h2>
             </div>
@@ -48,8 +55,58 @@
                 <a class="button" href="#">Contato</a>
             </div>
         </div> <!-- Filho -->
+    </section>
 
-    </section>  
+    <section class="section">
+
+        <h2 class="title -second">Habilidades</h2> <!-- para criar uma classe que caria da minha principal colocamos o -second que significa que é uma variação do meu títilo-->
+
+        <div class="container_icons">
+            <div class="box_icon">
+                <img class="icons" src="./assets/icones/html5.png" alt="html5">
+                <h2 class="subtitle">HTML</h2>
+                <div class="bar">
+                    <div class="progress_bar"></div>
+                </div>
+            </div>
+            <dl class="box_icon">
+                <img class="icons" src="./assets/icones/html5.png" alt="html5">
+                <h2 class="subtitle">CSS</h2>
+                <div class="bar">
+                    <div class="progress_bar"></div>
+                </div>
+            </dl>
+            <div class="box_icon">
+                <img class="icons" src="./assets/icones/html5.png" alt="html5">
+                <h2 class="subtitle">ArcGis</h2>
+                <div class="bar">
+                    <div class="progress_bar"></div>
+                </div>
+            </div>
+            <div class="box_icon">
+                <img class="icons" src="./assets/icones/html5.png" alt="html5">
+                <h2 class="subtitle">SCRUM</h2>
+                <div class="bar">
+                    <div class="progress_bar"></div>
+                </div>
+            </div>
+            <div class="box_icon">
+                <img class="icons" src="./assets/icones/html5.png" alt="html5">
+                <h2 class="subtitle">KANBAN</h2>
+                <div class="bar">
+                    <div class="progress_bar"></div>
+                </div>
+            </div>
+            <div class="box_icon">
+                <img class="icons" src="./assets/icones/html5.png" alt="html5">
+                <h2 class="subtitle">SEI LÁ</h2>
+                <div class="bar">
+                    <div class="progress_bar"></div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
 
 </body>

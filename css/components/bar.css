@@ -1,0 +1,16 @@
+
+.bar {
+    box-sizing: border-box;
+    width: 330px;
+    height: 40px;
+    background-color: white;
+    border: 2px solid black;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.bar .progress_bar {
+    background-color: #030AA6;
+    height: 100%;
+    width: 30%;
+}
