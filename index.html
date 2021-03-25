@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,52 +11,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/components/header.css">
-    <link rel="stylesheet" href="./css/components/logo.css">    
+    <link rel="stylesheet" href="./css/components/banner.css">
+    <link rel="stylesheet" href="./css/components/logo.css">
     <link rel="stylesheet" href="./css/components/title.css">
     <link rel="stylesheet" href="./css/components/subtitle.css">
     <link rel="stylesheet" href="./css/components/box.css">
     <link rel="stylesheet" href="./css/components/action.css">
     <link rel="stylesheet" href="./css/components/button.css">
-    
+
 </head>
 
 <body>
 
     <header class="header">
         <img class="logo" src="./assets/images/rebeca-menu.png" alt="imagem Rebeca">
-        <nav> <!-- navigation (navegação) filho do header -->
+        <nav>
+            <!-- navigation (navegação) filho do header -->
             <a class="action" href="#">Sobre</a>
             <a class="action" href="#">Projetos</a>
             <a class="action" href="#">Habilidades</a>
             <a class="action" href="#">Contato</a>
-            <a class="button"  href="#" lang="en">Download CV</a> <!-- usar oa tag lang quando tiver palabras em inglês, se for em um parágrafo usar a tag em e colocar o lang-->
+            <a class="button" href="#" lang="en">Download CV</a>
+            <!-- usar oa tag lang quando tiver palabras em inglês, se for em um parágrafo usar a tag em e colocar o lang-->
         </nav>
     </header>
-    
-    <div class="box">  
-        <h1 class="title">Rebeca G. Felicissimo</h1>
-        <h2 class="subtitle">Arqueóloga</h2>
-    </div>
 
-    <div>
-        <a class="button" href="#" lang="en">Download CV</a>
-        <a class="button" href="#">Contato</a>
-    </div>
+    <section class="banner"> <!-- Pai - ele quem manda nos componentes dos filhos - posicionamento dos filhos -->
+        <div class="wrapper"> <!-- wrapper = envolver-->
+            <div class="box"> <!-- Filho do wrapper -->
+                <h1 class="title">Rebeca G. Felicissimo</h1>
+                <h2 class="subtitle">Arqueóloga</h2>
+            </div>
+
+            <div class="navigation">
+                <a class="button" href="#" lang="en">Download CV</a> <!-- Filho -->
+                <a class="button" href="#">Contato</a>
+            </div>
+        </div> <!-- Filho -->
+
+    </section>  
 
 
-    <!--
-    <div class="seção_01">
-        <img class="seção_01_imagem" src="./assets/images/rebeca-menu.png" alt="Rebeca Felicissimo">
-
-               
-        <div class="seção_01_botões">
-            <a class="seção_01_botão"  href="#" lang="en">Download CV</a>
-            <a class="seção_01_botão"  href="#">Contatos</a>
-        </div>
-
-    </div>
-    -->
-
-    
 </body>
+
 </html>
