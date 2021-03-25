@@ -1,0 +1,10 @@
+
+.section {
+    box-sizing: border-box;
+    background-color: #FFEAEC;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 544px;
+    border-bottom: 5px solid black;
+}  
