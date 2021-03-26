@@ -1,6 +1,8 @@
 
 .container_icons {
-    display: inline-block;
+    
+    display: inline-block;  
+    
 
-    background-color: chartreuse;
+    border: 2px solid black;
 }
