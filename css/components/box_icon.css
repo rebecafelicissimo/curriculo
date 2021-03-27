@@ -1,6 +1,21 @@
 
 .box_icon { 
-    box-sizing: border-box;     
-    display: inline-block; 
-    margin-bottom: 40px;   
+    display: flex;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;     
 } 
+
+.box_icon .icons {
+    margin-right: 25px;    
+}
+
+.box_icon .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.box_icon .title {
+    margin-bottom: 10px;
+}
