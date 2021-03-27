@@ -1,8 +1,21 @@
 
 .container_icons {
-    
-    display: inline-block;  
-    
+    display: flex;
+    flex-wrap: wrap; /* envolve todo o conteúdo */
+    max-width: 960px; 
+    margin-left: auto;   
+    margin-right: auto;  
+}
 
-    border: 2px solid black;
+.container_icons .box_icon {
+    width: 430px;
+    margin-bottom: 40px;
+}
+
+.container_icons .box_icon:nth-child(odd) { /* nth-cild é uma pseudo-classe e o odd são os ímpares */
+    margin-right: 100px;
+}
+
+.container_icons .progress_bar {
+    width: 320px;
 }
