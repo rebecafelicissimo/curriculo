@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.main-subtitle {
+    font-family: Helvetica, sans-serif;
+    font-size: 30px;
+    color: #030AA6;   
+}
+
+.main-subtitle.-second {
+    color: black;    
+}
