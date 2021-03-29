@@ -20,15 +20,10 @@
     color: black
 }
 
-.section.-third {
-    background-color: black;
+.section.-bgBlack { /* variação dao background-color */
+    background-color: black;    
+}
+
+.section.-bdFirst { /* variação da borda */
     border-bottom: 5px solid #7C5E99;
-}
-
-.section.-third .main-title.-second {
-    color: white;
-}
-
-.section.-third .card-project {
-    
 }
