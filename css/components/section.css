@@ -11,3 +11,24 @@
 .section .main-title {
     margin-bottom: 60px;
 }
+
+.section.-second {
+    border-bottom: 5px solid #7C5E99;   
+}
+
+.section.-second .main-title.-second {    
+    color: black
+}
+
+.section.-third {
+    background-color: black;
+    border-bottom: 5px solid #7C5E99;
+}
+
+.section.-third .main-title.-second {
+    color: white;
+}
+
+.section.-third .card-project {
+    
+}
