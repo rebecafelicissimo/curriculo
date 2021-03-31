@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.action { /* a */
+.main-action { /* a */
     display: inline-flex;
     align-items: center;
     color: #FFEAEC;
@@ -10,7 +10,7 @@
     margin-right: 30px;    
 }
 
-.action::before { /* quadrado criado somente com css, não tem nada no html, o before é um pseudo-elemento */    
+.main-action::before { /* quadrado criado somente com css, não tem nada no html, o before é um pseudo-elemento */    
     content: ""; /* obrigatório o content */ 
     background-color: #FF66B3;
     width: 10px;
