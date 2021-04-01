@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.box {
+.main-box {
     display: inline-block;
     border: 2px solid black ;
     /*background-color: #F5DD90;*/
@@ -10,6 +10,6 @@
     
 } 
 
-.box .title { /* estou falando que o pai está pegando o filho e aplicando uma propriedade somente nele. */ 
+.main-box .main-title { /* estou falando que o pai está pegando o filho e aplicando uma propriedade somente nele. */ 
     margin-bottom: 20px;
 }
