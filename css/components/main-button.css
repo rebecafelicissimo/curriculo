@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.button {
+.main-button {
     display: inline-block;
     background-color: #6DB1BF;
     text-decoration: none;
@@ -16,7 +16,7 @@
     margin-right: 0;
 }
 
-.button:active {
+.main-button:active {
     background-color: #F5DD90;
     box-shadow: none;
     color: #030AA6;
