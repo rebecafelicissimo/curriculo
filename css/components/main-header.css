@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.header { /* header */
+.main-header { /* header */
     display: flex;
     justify-content: space-between;/* vai para as extremidades */
     align-items: center; /* alinha os itens no centro */ 
