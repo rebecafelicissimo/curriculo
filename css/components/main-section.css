@@ -27,3 +27,7 @@
 .main-section.-bdFirst { /* variação da borda */
     border-bottom: 5px solid #7C5E99;
 }
+
+.main-section.-bgPurple {
+    background-color: rgb(42, 17, 66);
+}
