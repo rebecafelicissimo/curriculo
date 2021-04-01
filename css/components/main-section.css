@@ -12,18 +12,18 @@
     margin-bottom: 60px;
 }
 
-.section.-second {
+.main-section.-second {
     border-bottom: 5px solid #7C5E99;   
 }
 
-.section.-second .main-title.-second {    
+.main-section.-second .main-title.-second {    
     color: black
 }
 
-.section.-bgBlack { /* variação dao background-color */
+.main-section.-bgBlack { /* variação dao background-color */
     background-color: black;    
 }
 
-.section.-bdFirst { /* variação da borda */
+.main-section.-bdFirst { /* variação da borda */
     border-bottom: 5px solid #7C5E99;
 }
