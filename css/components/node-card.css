@@ -36,5 +36,11 @@
 }
 
 .node-card.-clean .logo{
-    padding: 0;    
+    padding: 0;
+    justify-content: center; 
+}
+
+.node-card.-first .logo {
+    background-color: #f25a70;
+    justify-content: center;
 }
