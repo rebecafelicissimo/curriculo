@@ -34,3 +34,7 @@
     padding: 0 20px 0;     
     background-color: #CEB02A;
 }
+
+.node-card.-clean .logo{
+    padding: 0;    
+}
