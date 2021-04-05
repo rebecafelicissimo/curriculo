@@ -9,12 +9,22 @@
 .main-carrossel::after {
     content: '';
     position: absolute;
+    left: 50px;
+    top: 43px;
+    display: block;
+    height: 6px;
+    width: calc(100% - 100px);
+    background-color: black;
+}
+
+.main-carrossel::before {
+    content: '';
+    position: absolute;
     left: 0;
     top: 43px;
     display: block;
-    height: 5px;
+    border: 3px dashed black;
     width: 100%;
-    background-color: black;
 }
 
 .main-carrossel .button-arrow {
