@@ -6,6 +6,17 @@
     padding-right: 85px;
 }
 
+.main-carrossel::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 43px;
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: black;
+}
+
 .main-carrossel .button-arrow {
     position: absolute;
     bottom: 70px;
