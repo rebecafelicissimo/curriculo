@@ -1,4 +1,7 @@
 .main-description {
     color: white;
     font-size: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: justify;
 }
