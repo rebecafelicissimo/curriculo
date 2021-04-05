@@ -1,0 +1,22 @@
+.main-carrossel {
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.main-carrossel .button-arrow {
+    position: absolute;
+    bottom: 70px;
+    transform: translateY(50%);
+}
+
+.main-carrossel .button-arrow.-left {
+    left: 15px;
+}
+
+.main-carrossel .button-arrow.-right {
+    right: 15px;
+}
+
+
+
