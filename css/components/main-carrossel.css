@@ -20,6 +20,7 @@
 .main-carrossel::before {
     content: '';
     position: absolute;
+    box-sizing: border-box;
     left: 0;
     top: 43px;
     display: block;
@@ -42,10 +43,14 @@
 }
 
 .main-carrossel .items {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carrossel .elements {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    transform: translateX(400px);
+    transform: translateX(100px);
 }
 
 
